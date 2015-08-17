@@ -26,7 +26,7 @@ end
 
 default['nodejs']['engine'] = 'node' # or iojs
 
-default['nodejs']['version'] = '0.10.26'
+default['nodejs']['version'] = '0.12.7'
 
 default['nodejs']['prefix_url']['node'] = 'http://nodejs.org/dist/'
 default['nodejs']['prefix_url']['iojs'] = 'http://iojs.org/dist/'
@@ -36,7 +36,7 @@ default['nodejs']['source']['checksum'] = 'ef5e4ea6f2689ed7f781355012b942a2347e0
 
 default['nodejs']['binary']['url'] = nil # Auto generated
 default['nodejs']['binary']['checksum']['linux_x64'] = '305bf2983c65edea6dd2c9f3669b956251af03523d31cf0a0471504fd5920aac'
-default['nodejs']['binary']['checksum']['linux_x86'] = '8fa2d952556c8b5aa37c077e2735c972c522510facaa4df76d4244be88f4dc0f'
+default['nodejs']['binary']['checksum']['linux_x86'] = 'cb2ba2e004fc03f634e56618194e4c2c025cfe2'
 default['nodejs']['binary']['checksum']['linux_arm-pi'] = '52a0f6ed9c0be1ea5f79de6527c481c1b803edbea6413a4fdc65a45ad401565d'
 
 default['nodejs']['make_threads'] = node['cpu'] ? node['cpu']['total'].to_i : 2
