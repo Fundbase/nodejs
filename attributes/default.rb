@@ -26,7 +26,7 @@ end
 
 default['nodejs']['engine'] = 'node' # or iojs
 
-default['nodejs']['version'] = '0.12.7'
+default['nodejs']['version'] = '0.12.4'
 
 default['nodejs']['prefix_url']['node'] = 'http://nodejs.org/dist/'
 default['nodejs']['prefix_url']['iojs'] = 'http://iojs.org/dist/'
