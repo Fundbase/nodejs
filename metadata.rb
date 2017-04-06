@@ -13,7 +13,7 @@ conflicts 'node'
 depends 'yum', '4.2.0'
 depends 'yum-epel'
 depends 'build-essential'
-depends 'ark'
+depends 'ark', '2.2.1'
 depends 'apt'
 depends 'homebrew', '2.1.2'
 
